@@ -1,0 +1,50 @@
+<link rel="import" href="../../bower_components/paper-material/paper-material.html">
+
+<dom-module id="fake-result">
+	<style>
+		:host {
+			display: block;
+		}
+
+		#link {
+			color: var(--secondary-text-color);
+		}
+
+		#metadata {
+			color: var(--secondary-text-color);
+		}
+
+		#description {
+			color: var(--primary-text-color);
+		}
+
+		#card {
+			padding: 8px;
+		}
+	</style>
+	<template>
+		<paper-material elevation="1" id="card">
+			<h2><a href="{{link}}">Case Studies</a></h2>
+			<p id="link">{{link}}</p>
+			<p id="metadata">By Jason Manuel</p>
+			<p id="description">Not available due to robots.txt</p>
+		</paper-material>
+	</template>
+</dom-module>
+
+<script>
+	(function () {
+		Polymer({
+			is: 'fake-result',
+			properties: {
+				link: {
+					type: String,
+					notify: true
+				}
+			},
+			ready: function() {
+				this.link = 'http://jmanuel1.github.io/case-studies/';
+			}
+		})
+	})();
+</script>

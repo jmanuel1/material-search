@@ -1,0 +1,40 @@
+<link rel="import" href="../../bower_components/paper-input/paper-input.html">
+<link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
+
+<dom-module id="search-bar">
+  <style>
+    :host {
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -ms-flex-direction: row;
+      -webkit-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      width: 100%;
+      /*margin-left: 56px;*/
+      padding-right: 16px;
+      margin-right: 56px;
+    }
+    #searchField {
+      /*display: inline-block;*/
+      width: 100%;
+      padding-bottom: 8px;
+    }
+  </style>
+  <template>
+
+      <paper-icon-button icon="search"></paper-icon-button>
+      <paper-input label="Search" id="searchField"></paper-input>
+
+  </template>
+</dom-module>
+<script>
+  (function () {
+    Polymer({
+      is: 'search-bar',
+    });
+  })();
+</script>
