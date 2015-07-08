@@ -4,6 +4,10 @@
 <dom-module id="search-bar">
   <style>
     :host {
+      display: block;
+    }
+
+    paper-material {
       display: -ms-flexbox;
       display: -webkit-flex;
       display: flex;
@@ -13,21 +17,28 @@
       -ms-flex-align: center;
       -webkit-align-items: center;
       align-items: center;
-      width: 100%;
+      width: calc(100% - 16px);
       /*margin-left: 56px;*/
-      padding-right: 16px;
-      margin-right: 56px;
+      padding: 16px;
+      /*margin-right: 56px;*/
     }
+
     #searchField {
       /*display: inline-block;*/
       width: 100%;
-      padding-bottom: 8px;
+      padding-bottom: 16px;
+    }
+
+    #searchField, #icon {
+      margin: auto;
     }
   </style>
   <template>
-
-      <paper-icon-button icon="search"></paper-icon-button>
+    <paper-material elevation="2">
       <paper-input label="Search" id="searchField"></paper-input>
+      <paper-icon-button icon="search" id="icon"></paper-icon-button>
+    </paper-material>
+
 
   </template>
 </dom-module>
