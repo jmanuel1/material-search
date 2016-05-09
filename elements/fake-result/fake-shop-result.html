@@ -1,41 +1,12 @@
 <link rel="import" href="../../bower_components/paper-material/paper-material.html">
 <link rel="import" href="../../bower_components/iron-icons/av-icons.html">
+<link rel="import" href="fake-result-styles.html">
+
 <dom-module id="fake-shop-result">
-	<style>
-		:host {
-			display: block;
-		}
-
-		#link {
-			color: var(--secondary-text-color);
-		}
-
-		#metadata {
-			color: var(--secondary-text-color);
-		}
-
-		#description {
-			color: var(--primary-text-color);
-		}
-
-		#card {
-			padding: 8px;
-			background-color: var(--text-primary-color);
-			border-radius: 2px;
-		}
-
-		#product {
-			/*background-color: var(--light-primary-color);*/
-			--iron-icon-width: 100%;
-			--iron-icon-height: var(--iron-icon-width);
-			/*height:*/
-		}
-	</style>
+	<style include='fake-result-styles'></style>
 	<template>
 		<paper-material elevation="1" id="card">
-			<!-- <div id="product"> -->
-				<iron-icon icon="av:av-timer" id="product"></iron-icon>
-			<!-- </div> -->
+			<iron-icon icon="av:av-timer" id="icon"></iron-icon>
 			<h2><a href="{{link}}">Buy a time machine</a></h2>
 			<p id="link">{{link}}</p>
 			<p id="metadata">Costs US$1 quintillion</p>

@@ -1,29 +1,8 @@
 <link rel="import" href="../../bower_components/paper-material/paper-material.html">
+<link rel="import" href="fake-result-styles.html">
 
 <dom-module id="fake-result">
-	<style>
-		:host {
-			display: block;
-		}
-
-		#link {
-			color: var(--secondary-text-color);
-		}
-
-		#metadata {
-			color: var(--secondary-text-color);
-		}
-
-		#description {
-			color: var(--primary-text-color);
-		}
-
-		#card {
-			padding: 8px;
-			background-color: var(--text-primary-color);
-			border-radius: 2px;
-		}
-	</style>
+	<style include='fake-result-styles'></style>
 	<template>
 		<paper-material elevation="1" id="card">
 			<h2><a href="{{link}}">Case Studies</a></h2>
