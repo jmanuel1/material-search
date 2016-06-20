@@ -81,23 +81,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
           <!-- Main Content -->
           <div class="content">
-            <search-bar></search-bar>
-            <iron-pages attr-for-selected="data-route" selected="{{route}}">
-              <section data-route="home">
-                <h1>Web Results</h1>
-                <fake-result></fake-result>
-              </section>
-
-              <section data-route="shop">
-                <h1>Shopping Results</h1>
-                <fake-shop-result></fake-shop-result>
-              </section>
-
-              <section data-route="video">
-                <h1>Video Results</h1>
-                <fake-video-result></fake-video-result>
-              </section>
-            </iron-pages>
+            <paper-search-panel search='{{search}}' items='[[_createItems(search)]]'>
+              <template is="dom-repeat" items="[[_createItems(search)]]">
+                <paper-material elevation="2">
+                  {{item}}
+                </paper-material>
+              </template>
+            </paper-search-panel>
+            <!-- <iron-pages attr-for-selected="data-route" selected="{{route}}">
+            </iron-pages> -->
           </div>
         </paper-header-panel>
 
