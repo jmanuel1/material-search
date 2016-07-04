@@ -81,13 +81,13 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
           <!-- Main Content -->
           <div class="content">
-            <paper-search-panel search='{{search}}' items='[[_createItems(search)]]'>
-              <template is="dom-repeat" items="[[_createItems(search)]]">
-                <paper-material elevation="2">
-                  {{item}}
-                </paper-material>
-              </template>
-            </paper-search-panel>
+            <paper-search-bar query='{{search}}' placeholder='Search' hide-filter-button items='[[_createItems(search)]]'>
+            </paper-search-bar>
+            <template is="dom-repeat" items="[[_createItems(search)]]">
+              <paper-material elevation="2">
+                {{item}}
+              </paper-material>
+            </template>
             <!-- <iron-pages attr-for-selected="data-route" selected="{{route}}">
             </iron-pages> -->
           </div>
