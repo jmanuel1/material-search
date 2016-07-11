@@ -84,9 +84,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <paper-search-bar query='{{search}}' placeholder='Search' hide-filter-button items='[[_createItems(search)]]'>
             </paper-search-bar>
             <template is="dom-repeat" items="[[_createItems(search)]]">
-              <paper-material elevation="2">
-                {{item}}
-              </paper-material>
+              <paper-card heading='{{item}}' elevation='2'>
+                <div class="card-content">
+                  Some card content 'cause <span>{{item}}</span>
+                </div>
+              </paper-card>
             </template>
             <!-- <iron-pages attr-for-selected="data-route" selected="{{route}}">
             </iron-pages> -->
