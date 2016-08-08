@@ -1,6 +1,6 @@
 <!--
 @license
-Copyright (c) 2015 Jason Manuel. All rights reserved.
+Copyright (c) 2015-6 Jason Manuel. All rights reserved.
 
 Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
 This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
@@ -17,7 +17,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Polymer Starter Kit" />
-    <title>Polymer Starter Kit</title>
+    <title>Material Search</title>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <!-- Chrome for Android theme color -->
@@ -81,23 +81,18 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
           <!-- Main Content -->
           <div class="content">
-            <search-bar></search-bar>
-            <iron-pages attr-for-selected="data-route" selected="{{route}}">
-              <section data-route="home">
-                <h1>Web Results</h1>
-                <fake-result></fake-result>
-              </section>
-
-              <section data-route="shop">
-                <h1>Shopping Results</h1>
-                <fake-shop-result></fake-shop-result>
-              </section>
-
-              <section data-route="video">
-                <h1>Video Results</h1>
-                <fake-video-result></fake-video-result>
-              </section>
-            </iron-pages>
+            <paper-search-bar query='{{search}}' placeholder='Search'
+              hide-filter-button items='[[_createItems(search)]]'>
+            </paper-search-bar>
+            <div id='search-results'>
+              <template is="dom-repeat" items="[[_createItems(search)]]">
+                <paper-card heading='{{item}}' elevation='2'>
+                  <div class="card-content">
+                    Some card content 'cause <span>{{item}}</span>
+                  </div>
+                </paper-card>
+              </template>
+            </div>
           </div>
         </paper-header-panel>
 

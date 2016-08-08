@@ -1,6 +1,6 @@
 # License
 
-Copyright (c) 2015 Jason Manuel. All rights reserved.
+Copyright (c) 2015-6 Jason Manuel. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:

@@ -43,6 +43,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     /* paper-menu */
     --paper-menu-background-color: #fff;
     --menu-link-color: #111111;
+
+    /* paper-card */
+    --paper-card-background-color: #fff;
   }
 
   /* paper-tab */
@@ -124,6 +127,24 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   /* Height of the scroll area */
   .content {
     height: 900px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* paper-search styles */
+  paper-search-bar {
+    @apply(--shadow-elevation-3dp);
+    border-radius: 2px;
+    margin: 5px;
+  }
+
+  paper-card {
+    margin: 2.5px auto;
+    width: 100%;
+  }
+
+  #search-results {
+    margin: 5px;
   }
 
   /* Breakpoints */
@@ -162,21 +183,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
   /* Tablet+ */
   @media (min-width: 601px) {
-
-    paper-material {
-      width: calc(98% - 46px);
-      margin-bottom: 32px;
-      padding-left: 30px;
-      padding-right: 30px;
-    }
-
-    #drawer.paper-drawer-panel > [drawer] {
-      border-right: 1px solid rgba(0, 0, 0, 0.14);
-    }
-
-    iron-pages {
-      padding: 48px 62px;
-    }
 
   }
 
