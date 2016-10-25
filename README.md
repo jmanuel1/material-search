@@ -1,19 +1,26 @@
-Welcome to Polymer Starter Kit Light!
+Material Search
+---------------
 
-To begin, fire up a local server from inside the `app` directory. Please make sure to serve up the contents of the directory rather than root as routing will otherwise fail to correctly function.
+A material design search page prototype. Based on the Polymer Starter Kit
+Light.
 
-## Firing up a server using Python
+![Demonstration of material-search](https://cloud.githubusercontent.com/assets/7255867/19464608/9e4247da-94b2-11e6-9a39-7318abb94b7e.gif)
 
-If you are a Windows user, install Python and from inside the `app` directory run:
+Or see it in action: https://jmanuel1.github.io/material-search/
 
+### Running locally
+
+Start up a server in the project directory and navigate to `localhost:<port>`
+in a browser.
+For example:
+
+```bash
+$ git clone https://github.com/jmanuel1/material-search.git && cd material-search
+$ python3 -m http.server
+# Go to localhost:8000 in a browser.
 ```
-python -m http.server 8080
-```
 
-or on a Mac/*nix machine, run:
+Tested in Chrome.
 
-```
-python -m SimpleHTTPServer 8080
-```
-
-You can of course also use WAMP or an alternative tool for serving up content. 
+<!-- TODO: Release this -->
+<!-- TODO: Announce this -->
