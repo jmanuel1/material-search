@@ -1,5 +1,6 @@
 var gulp   = require('gulp');
 var yarn   = require('gulp-yarn');
+var jshint = require('gulp-jshint');
 var del    = require('del');
 var spawn  = require('child_process').spawn;
 
@@ -48,3 +49,34 @@ gulp.task('mypy', gulp.series(
     return pythonProcess.kill();
   })
 );
+
+gulp.task('lint', function() {
+  // codepainter (https://github.com/jedmao/codepainter) derived the following
+  // options:
+  /* {
+    "indent_style":"space",
+    "indent_size":2,
+    "insert_final_newline":true,
+    "quote_type":"auto",
+    "space_after_anonymous_functions":false,
+    "space_after_control_statements":true,
+    "spaces_around_operators":true,
+    "trim_trailing_whitespace":true,
+    "spaces_in_brackets":false,
+    "end_of_line":"crlf"
+  }
+  */
+  return gulp.src(['./scripts/**/*.js', './*.json', './*.js'])
+    .pipe(jshint({
+      latedef: true,
+      newcap: true,
+      nonew: true,
+      quotmark: true, // TODO: Option deprecated
+      maxcomplexity: 7,
+      maxlen: 80,
+      mocha: false,
+      indent: 2, // TODO: Option deprecated,
+      esversion: 8 // async functions
+    }))
+    .pipe(jshint.reporter('default'));
+});
