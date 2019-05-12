@@ -53,7 +53,7 @@ Starter Kit. Some of the changes/additions are:
 ```css
 /* paper-search styles */
 paper-search-bar {
-  /* Mixin from ../bower_components/paper-styles/shadow.html, imported from
+  /* Mixin from ../node_modules/@bower_components/paper-styles/shadow.html, imported from
   elements.html */
   @apply(--shadow-elevation-3dp);
   border-radius: 2px;
