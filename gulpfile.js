@@ -1,7 +1,7 @@
 var gulp   = require('gulp');
 var yarn   = require('gulp-yarn');
 var del    = require('del');
-var spawn  = require(/*'gulp-spawn'*/'child_process').spawn;
+var spawn  = require('child_process').spawn;
 
 gulp.task('build', gulp.series(function() {
   // Ensure that packages are installed.
@@ -32,6 +32,18 @@ gulp.task('test', gulp.series(
     return spawn('pytest', ['test.py'], {
       stdio: 'inherit', cwd: './test'
     });
+  }, async function() {
+    return pythonProcess.kill();
+  })
+);
+
+gulp.task('mypy', gulp.series(
+  function() {
+    process.env.MYPYPATH = 'test/stubs/';
+    var pythonProcess = spawn('mypy', ['test'], {
+      cwd: '.', stdio: 'inherit'
+    });
+    return pythonProcess;
   }, async function() {
     return pythonProcess.kill();
   })

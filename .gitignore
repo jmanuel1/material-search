@@ -3,8 +3,8 @@ build/
 
 # Python
 *.pyc
-.mypy_cache/
 env/
+.mypy_cache/
 
 # WebDrivers
 *.zip
