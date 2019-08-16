@@ -1,2 +1,12 @@
 node_modules/
 build/
+
+# Python
+*.pyc
+.mypy_cache/
+env/
+
+# WebDrivers
+*.zip
+chromedriver.exe
+selenium*.jar
