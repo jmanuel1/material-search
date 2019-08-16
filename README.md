@@ -70,16 +70,38 @@ paper-card {
 }
 ```
 
-### Code style and tests
+### Tests
 
-There are no tests yet (they would be appreciated). No code style has
-really been set either, so make sure it is consistent if you make a pull
-request.
+Integration tests are under the `test/` directory. To run the tests, do:
+
+#### One-time setup
+
+```bash
+> python3 -m virtualenv env  # assumes python 3.7+
+> . ./env/Scripts/activate  # `source ./env/bin/activate` in posix
+(env) > pip install -r requirements.txt
+```
+
+#### When you want to run tests
+
+```bash
+> . ./env/Scripts/activate  # make sure you're in the virtual environment
+(env) > gulp test
+```
+
+#### Writing tests
+
+The tests are written in Python using Selenium and pytest. Please use type
+annotations and check the code using mypy.
+
+### Code style
+
+No code style has really been set either, so make sure it is consistent if you
+make a pull request.
 
 ### Roadmap
 
 1. Set code style
-2. Add tests
 3. Optimize site through a build process
 
 <!-- TODO: Announce this -->
