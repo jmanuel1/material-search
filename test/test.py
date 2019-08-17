@@ -47,7 +47,8 @@ def wait_for_elements(elements: List[Any], driver: webdriver.Chrome) -> None:
 
 
 def wait_for_elements_have_texts(elements: Iterable[Any], texts: Iterable[str], driver: webdriver.Remote) -> None:
-    map(lambda args: wait_for_element_has_text(args[0], driver, args[1]), zip(elements, texts))
+    map(lambda args: wait_for_element_has_text(
+        args[0], driver, args[1]), zip(elements, texts))
 
 
 def get_search_result_elements(driver: webdriver.Remote) -> Any:
@@ -81,7 +82,8 @@ def test_app_name_on_page(driver: webdriver.Chrome) -> None:
 def test_search_category_tabs_exist(driver: webdriver.Chrome) -> None:
     driver.get('http://localhost:8000')
     tabElements = driver.find_elements_by_tag_name('paper-tab')
-    wait_for_elements_have_texts(tabElements, ('eb', '', ''), driver)
+    wait_for_elements_have_texts(
+        tabElements, ('eb', 'hopping', 'ideos'), driver)
     tabNames = set(map(lambda element: element.text.lower(), tabElements))
     assert tabNames <= {'web', 'shopping', 'videos'}
 
