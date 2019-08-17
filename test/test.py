@@ -72,8 +72,8 @@ def test_main_page_title(driver: webdriver.Chrome) -> None:
 
 def test_app_name_on_page(driver: webdriver.Chrome) -> None:
     driver.get('http://localhost:8000')
+    wait_for_element_selector('#app-name', driver)
     appNameElement = driver.find_element_by_id('app-name')
-    wait_for_element(appNameElement, driver)
     appName = appNameElement.text
     assert 'material search' in appName.lower()
 
