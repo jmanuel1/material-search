@@ -66,7 +66,7 @@ gulp.task('lint', function() {
     "end_of_line":"crlf"
   }
   */
-  return gulp.src(['./scripts/**/*.js', './*.json', './*.js'])
+  return gulp.src(['./scripts/**/*.js', './*.json', '!package.json', './*.js'])
     .pipe(jshint({
       latedef: true,
       newcap: true,
@@ -75,7 +75,7 @@ gulp.task('lint', function() {
       maxcomplexity: 7,
       maxlen: 80,
       mocha: false,
-      indent: 2, // TODO: Option deprecated,
+      indent: 2, // TODO: Option deprecated
       esversion: 8 // async functions
     }))
     .pipe(jshint.reporter('default'));
