@@ -121,7 +121,7 @@
   "homepage": "https://github.com/jmanuel1/material-search#readme",
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged --pattern \"**/*.html\""
+      "pre-commit": "pretty-quick --staged --pattern \"**/*.html\" --pattern \"**/*.css\""
     }
   }
 }
