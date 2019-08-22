@@ -108,12 +108,13 @@ paper-card {
 
 ### Tests
 
-Integration tests are under the `test/` directory. To run the tests, do:
+Integration tests are under the `test/` directory. Assuming you've already [set
+up your development environment](#set-up), you can run the tests using the
+following:
 
 #### One-time setup
 
 ```bash
-> python3 -m virtualenv env  # assumes python 3.7+
 > . ./env/Scripts/activate  # `source ./env/bin/activate` in posix
 (env) > pip install -r requirements.txt
 ```
@@ -121,7 +122,7 @@ Integration tests are under the `test/` directory. To run the tests, do:
 #### When you want to run tests
 
 ```bash
-> . ./env/Scripts/activate  # make sure you're in the virtual environment
+# make sure you're in the virtual environment
 (env) > gulp test
 ```
 
@@ -136,7 +137,7 @@ HTML, CSS, and JavaScript files are passed through
 [Prettier](https://prettier.io/) whenever they are committed. A Git hook for
 this purpose should be set up for you after you run `yarn`.
 
-### Roadmap
+## Roadmap
 
 1. Optimize site through a build process.
 
