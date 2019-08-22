@@ -96,12 +96,12 @@ annotations and check the code using mypy.
 
 ### Code style
 
-No code style has really been set either, so make sure it is consistent if you
-make a pull request.
+HTML, CSS, and JavaScript files are passed through
+[Prettier](https://prettier.io/) whenever they are committed. A Git hook for
+this purpose should be set up for you after you run `yarn`.
 
 ### Roadmap
 
-1. Set code style
-3. Optimize site through a build process
+1. Optimize site through a build process.
 
 <!-- TODO: Announce this -->
