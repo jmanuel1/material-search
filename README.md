@@ -108,9 +108,11 @@ paper-card {
 
 ### Tests
 
-Integration tests are under the `test/` directory. Assuming you've already [set
-up your development environment](#set-up), you can run the tests using the
-following:
+Integration tests are under the `test/` directory. Test scripts act on the
+latest build of the website in the `build/` directory, *not* the files at the
+project root, so you must build the project before testing. Assuming you've
+already [set up your development environment](#set-up), you can run the tests
+using the following:
 
 #### One-time setup
 
