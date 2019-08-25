@@ -22,9 +22,9 @@
   version "2.12.0"
   resolved "https://codeload.github.com/GoogleChrome/accessibility-developer-tools/tar.gz/e12bfeba8616416ea376ddfaa1be0120d9706a9b"
 
-"@bower_components/app-layout@PolymerElements/app-layout#2.0.0":
+"@bower_components/app-layout@PolymerElements/app-layout#2.0.5":
   version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/app-layout/tar.gz/67d50c6e6df2af932ef569f9217e8581eb0f354e"
+  resolved "https://codeload.github.com/PolymerElements/app-layout/tar.gz/203838ff0f0cba770e5fe87566abd94b47190e18"
 
 "@bower_components/async@caolan/async#^1.5.0":
   version "1.5.2"
@@ -98,9 +98,9 @@
   version "0.0.0"
   resolved "https://codeload.github.com/PolymerElements/iron-fit-behavior/tar.gz/b2f9236e57003efa6db2f8680c5c3531cf39e833"
 
-"@bower_components/iron-flex-layout@PolymerElements/iron-flex-layout#2.0.0":
+"@bower_components/iron-flex-layout@PolymerElements/iron-flex-layout#2.0.1":
   version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-flex-layout/tar.gz/a26a7edc3ba60204a8bb4a1f4865f7786dfc7af5"
+  resolved "https://codeload.github.com/PolymerElements/iron-flex-layout/tar.gz/f1d33ea9589e0a8d632ee4d5e00174df4c53661a"
 
 "@bower_components/iron-form-element-behavior@PolymerElements/iron-form-element-behavior#2.0.0":
   version "0.0.0"

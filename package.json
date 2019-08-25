@@ -16,7 +16,7 @@
     "@bower_components/iron-component-page": "PolymerElements/iron-component-page#2.0.0",
     "@bower_components/iron-doc-viewer": "PolymerElements/iron-doc-viewer#2.0.0",
     "@bower_components/iron-fit-behavior": "PolymerElements/iron-fit-behavior#2.0.0",
-    "@bower_components/iron-flex-layout": "PolymerElements/iron-flex-layout#2.0.0",
+    "@bower_components/iron-flex-layout": "PolymerElements/iron-flex-layout#2.0.1",
     "@bower_components/iron-form": "PolymerElements/iron-form#2.0.0",
     "@bower_components/iron-form-element-behavior": "PolymerElements/iron-form-element-behavior#2.0.0",
     "@bower_components/iron-icon": "PolymerElements/iron-icon#2.0.0",
@@ -87,7 +87,7 @@
     "@bower_components/test-fixture": "PolymerElements/test-fixture#2.0.0",
     "@bower_components/web-animations-js": "web-animations/web-animations-js#^2.2.0",
     "@bower_components/webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0",
-    "@bower_components/app-layout": "PolymerElements/app-layout#2.0.0"
+    "@bower_components/app-layout": "PolymerElements/app-layout#2.0.5"
   },
   "engines": {
     "yarn": ">= 1.0.0"

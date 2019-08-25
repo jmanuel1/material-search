@@ -63,57 +63,58 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <!-- endreplace-->
   </head>
 
-  <body unresolved class="fullbleed layout vertical">
+  <body unresolved>
     <span id="browser-sync-binding"></span>
     <dom-bind id="app">
       <template>
-        <app-drawer-layout>
-          <app-header-layout
-            ><!-- main mode="waterfall-tall" class="flex"-->
-
-            <app-header slot="header" reveals effects="waterfall">
-              <!-- Main Toolbar -->
-              <app-toolbar id="mainToolbar" class="tall"
-                ><!-- slot="header"-->
-                <!-- Application name -->
-                <!-- <div class="middle paper-font-display2 app-name" id='app-name' main-title> -->
-                <div id="app-name">Material Search</div>
-                <paper-tabs attr-for-selected="data-route" selected="{{route}}"
-                  ><!--class="bottom fit" slot="top"-->
-                  <paper-tab data-route="home" href="/">
-                    Web
-                  </paper-tab>
-                  <paper-tab data-route="shop" href="/shop">
-                    Shopping
-                  </paper-tab>
-                  <paper-tab data-route="video" href="/video">
-                    Videos
-                  </paper-tab>
-                </paper-tabs>
-              </app-toolbar>
-            </app-header>
-
-            <!-- Main Content -->
-            <div>
-              <paper-search-bar
-                query="{{search}}"
-                placeholder="Search"
-                hide-filter-button
-                items="{{_createItems(search)}}"
-              >
-              </paper-search-bar>
-              <div id="search-results">
-                <template is="dom-repeat" items="{{_createItems(search)}}">
-                  <paper-card heading="{{item}}" elevation="2">
-                    <div class="card-content">
-                      Some card content 'cause <span>{{item}}</span>
-                    </div>
-                  </paper-card>
-                </template>
+        <app-header-layout>
+          <!-- NOTE: fixed and condenses need app-header-layout to work -->
+          <app-header slot="header" fixed condenses effects="waterfall">
+            <!-- Main Toolbar -->
+            <app-toolbar id="mainToolbar" class="tall">
+              <!-- Application name -->
+              <div id="app-name" class="middle paper-font-display2" main-title>
+                Material Search
               </div>
+            </app-toolbar>
+            <paper-tabs
+              attr-for-selected="data-route"
+              selected="{{route}}"
+              bottom-item
+              sticky
+            >
+              <paper-tab data-route="home" href="/">
+                Web
+              </paper-tab>
+              <paper-tab data-route="shop" href="/shop">
+                Shopping
+              </paper-tab>
+              <paper-tab data-route="video" href="/video">
+                Videos
+              </paper-tab>
+            </paper-tabs>
+          </app-header>
+
+          <!-- Main Content -->
+          <div class="content">
+            <paper-search-bar
+              query="{{search}}"
+              placeholder="Search"
+              hide-filter-button
+              items="{{_createItems(search)}}"
+            >
+            </paper-search-bar>
+            <div id="search-results">
+              <template is="dom-repeat" items="{{_createItems(search)}}">
+                <paper-card heading="{{item}}" elevation="2">
+                  <div class="card-content">
+                    Some card content 'cause <span>{{item}}</span>
+                  </div>
+                </paper-card>
+              </template>
             </div>
-          </app-header-layout>
-        </app-drawer-layout>
+          </div>
+        </app-header-layout>
       </template>
     </dom-bind>
 
