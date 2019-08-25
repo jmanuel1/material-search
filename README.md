@@ -77,35 +77,8 @@ This file contains all the HTML imports, including those of elements, used in
 
 #### `styles/app-theme.html`
 
-This has most of material-search's styling. Most of it is from the Polymer
-Starter Kit. Some of the changes/additions are:
-
-```css
-/* Hide the app name when the toolbar collapses */
-#mainToolbar:not(.tall) #app-name {
-  display: none;
-}
-```
-
-```css
-/* paper-search styles */
-paper-search-bar {
-  /* Mixin from ../node_modules/@bower_components/paper-styles/shadow.html, imported from
-  elements.html */
-  @apply(--shadow-elevation-3dp);
-  border-radius: 2px;
-  margin: 5px;
-}
-
-paper-card {
-  margin: 2.5px auto;
-  width: 100%;
-}
-
-#search-results {
-  margin: 5px;
-}
-```
+This has most of material-search's styling. Much of it is from the Polymer
+Starter Kit v1.
 
 ### Tests
 
