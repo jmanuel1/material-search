@@ -1,8 +1,9 @@
 Material Search
 ===============
 
-A material design search page prototype. Based on the [Polymer Starter Kit
-Light v1](https://github.com/PolymerElements/polymer-starter-kit).
+A material design search page prototype. Based on the [Polymer Starter Kit Light
+v1](https://github.com/PolymerElements/polymer-starter-kit) and later upgraded
+to Polymer 2.
 
 ![Demonstration of material-search](https://cloud.githubusercontent.com/assets/7255867/19464608/9e4247da-94b2-11e6-9a39-7318abb94b7e.gif)
 
@@ -71,8 +72,8 @@ This is hooked up to three fake results that appear in a `div` (id
 
 #### `elements/elements.html`
 
-This file contains all of the HTML imports, including those of elements, used
-in `index.html`. This is then imported from `index.html`.
+This file contains all the HTML imports, including those of elements, used in
+`index.html`. This is then imported from `index.html`.
 
 #### `styles/app-theme.html`
 
