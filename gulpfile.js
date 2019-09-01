@@ -37,7 +37,7 @@ gulp.task(
       // Don't wait for exit, so async is used
       // Assume build has been run
       pythonProcess = spawn("python", ["-m", "http.server"], {
-        cwd: "./build"
+        cwd: "./build/dev"
       });
       return pythonProcess;
     },

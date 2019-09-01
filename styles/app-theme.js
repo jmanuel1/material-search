@@ -1,4 +1,4 @@
-<!--
+/*
 @license
 Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
 This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
@@ -6,8 +6,10 @@ The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
 The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
 Code distributed by Google as part of the polymer project is also
 subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
--->
+*/
 
+const styleContainer = document.createElement("template");
+styleContainer.innerHTML = `
 <style is="custom-style">
   /* Application theme */
 
@@ -83,6 +85,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
   /* The main content area */
 
+  .content-container {
+    width: 100%;
+  }
+
   .content {
     height: 900px;
     max-width: 600px;
@@ -95,6 +101,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     border-radius: 2px;
     margin: 5px;
     align-items: center; /* fixes clear button */
+    width: calc(100% - 10px);
   }
 
   paper-card {
@@ -135,5 +142,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     paper-tabs {
       height: 56px;
     }
+
+    .content {
+      min-width: 100%;
+    }
   }
 </style>
+`;
+document.head.appendChild(styleContainer.content);

@@ -22,10 +22,6 @@
   version "2.12.0"
   resolved "https://codeload.github.com/GoogleChrome/accessibility-developer-tools/tar.gz/e12bfeba8616416ea376ddfaa1be0120d9706a9b"
 
-"@bower_components/app-layout@PolymerElements/app-layout#2.0.5":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/app-layout/tar.gz/203838ff0f0cba770e5fe87566abd94b47190e18"
-
 "@bower_components/async@caolan/async#^1.5.0":
   version "1.5.2"
   resolved "https://codeload.github.com/caolan/async/tar.gz/9ab5c67b7cb3a4c3dad4a2d4552a2f6775545d6c"
@@ -54,161 +50,262 @@
     estraverse "^3.1.0"
     path-is-absolute "^1.0.0"
 
-"@bower_components/iron-a11y-announcer@PolymerElements/iron-a11y-announcer#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-a11y-announcer/tar.gz/6f67e135f6a6371f879aceee1f08faee56330cab"
+"@bower_components/iron-a11y-announcer@PolymerElements/iron-a11y-announcer#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-a11y-announcer/tar.gz/72877a940816d8709bcddd0ed201dec57a028d26"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-a11y-keys-behavior@PolymerElements/iron-a11y-keys-behavior#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-a11y-keys-behavior/tar.gz/9f37f7e3994313903ef3a3cef58aa02d069e484a"
+"@bower_components/iron-a11y-keys-behavior@PolymerElements/iron-a11y-keys-behavior#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-a11y-keys-behavior/tar.gz/51bd97f07802533d8b7a543ed0857a676fa98690"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-a11y-keys@PolymerElements/iron-a11y-keys#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-a11y-keys/tar.gz/933ff6e73629b6b32b5584b9649631ba1fde543c"
+"@bower_components/iron-a11y-keys@PolymerElements/iron-a11y-keys#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-a11y-keys/tar.gz/dd7a0ab3898aaf908c5748558339edab01b233ba"
+  dependencies:
+    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-ajax@PolymerElements/iron-ajax#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-ajax/tar.gz/8113f2d75dc31596677955cc4c02da4687a69ae9"
+"@bower_components/iron-ajax@PolymerElements/iron-ajax#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-ajax/tar.gz/ccdf569a19aa0896101b35e99317a7d2548f4f71"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-autogrow-textarea@PolymerElements/iron-autogrow-textarea#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-autogrow-textarea/tar.gz/0b01145efef9408ff5c23f608557ca90343b0e72"
+"@bower_components/iron-autogrow-textarea@PolymerElements/iron-autogrow-textarea#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-autogrow-textarea/tar.gz/35ee11ac1b4968972daad698081d425e9a37f507"
+  dependencies:
+    "@polymer/iron-behaviors" "^3.0.0-pre.26"
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/iron-validatable-behavior" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-behaviors@PolymerElements/iron-behaviors#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-behaviors/tar.gz/fbada8ba9910b4806f057b82f077f2013b7fd204"
+"@bower_components/iron-behaviors@PolymerElements/iron-behaviors#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-behaviors/tar.gz/e6cba9eb52b426f255ca0b585c6b92dbc38b6ca8"
+  dependencies:
+    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-checked-element-behavior@PolymerElements/iron-checked-element-behavior#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-checked-element-behavior/tar.gz/c3c6cf6038ea246c6952bbd46fb79cc70ea5fd16"
+"@bower_components/iron-checked-element-behavior@PolymerElements/iron-checked-element-behavior#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-checked-element-behavior/tar.gz/59c47d2cb4f67de7f9d1feb9db7e53465aba821f"
+  dependencies:
+    "@polymer/iron-form-element-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-validatable-behavior" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-collapse@PolymerElements/iron-collapse#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-collapse/tar.gz/e4b68af74a36084456bc10db35252c01b2f7ad4d"
+"@bower_components/iron-collapse@PolymerElements/iron-collapse#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-collapse/tar.gz/2c56156c20aa3358fe0cea2af9e0c3d457d1a31c"
+  dependencies:
+    "@polymer/iron-resizable-behavior" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-component-page@PolymerElements/iron-component-page#2.0.0":
+"@bower_components/iron-component-page@PolymerElements/iron-component-page#3.0.0":
   version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-component-page/tar.gz/7c14094057b59019cf04e3a723077160ae1c723c"
+  resolved "https://codeload.github.com/PolymerElements/iron-component-page/tar.gz/c1e1679472c68b8443912f3c48a0bb41537aef61"
 
-"@bower_components/iron-doc-viewer@PolymerElements/iron-doc-viewer#2.0.0":
+"@bower_components/iron-doc-viewer@PolymerElements/iron-doc-viewer#3.0.0":
   version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-doc-viewer/tar.gz/4197605cf7410aca8140f303baa9ccf99683536c"
+  resolved "https://codeload.github.com/PolymerElements/iron-doc-viewer/tar.gz/f9223a9a8509263dfc9fdee00c3657e79ad72d4b"
 
-"@bower_components/iron-fit-behavior@PolymerElements/iron-fit-behavior#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-fit-behavior/tar.gz/b2f9236e57003efa6db2f8680c5c3531cf39e833"
+"@bower_components/iron-fit-behavior@PolymerElements/iron-fit-behavior#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-fit-behavior/tar.gz/3d3426751bff9a886b50983d02ce5e413815007c"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-flex-layout@PolymerElements/iron-flex-layout#2.0.1":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-flex-layout/tar.gz/f1d33ea9589e0a8d632ee4d5e00174df4c53661a"
+"@bower_components/iron-flex-layout@PolymerElements/iron-flex-layout#3.0.1":
+  version "3.0.1"
+  resolved "https://codeload.github.com/PolymerElements/iron-flex-layout/tar.gz/4831427c57e6f6ef476c8cd4e6c51284178ecf93"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-form-element-behavior@PolymerElements/iron-form-element-behavior#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-form-element-behavior/tar.gz/6087b69013619e5b3e023a10824d25cf7530d1fc"
+"@bower_components/iron-form-element-behavior@PolymerElements/iron-form-element-behavior#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-form-element-behavior/tar.gz/8a2d2d5f50594b1d71fab932cb1e21509fb424a4"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-form@PolymerElements/iron-form#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-form/tar.gz/f1c9b04b9d2d57334192537736a61e22708cd7b4"
+"@bower_components/iron-form@PolymerElements/iron-form#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-form/tar.gz/f0dcd0c650d90cef84175a5eb6ac81d304e8ffbb"
+  dependencies:
+    "@polymer/iron-ajax" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-icon@PolymerElements/iron-icon#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-icon/tar.gz/4f9bfb8bd98c4cb9de3dc8467a52749e814cfdd6"
+"@bower_components/iron-icon@PolymerElements/iron-icon#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-icon/tar.gz/8c9d58565e48cd66d9700dc8486444ba9bb6854e"
+  dependencies:
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/iron-meta" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-icons@PolymerElements/iron-icons#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-icons/tar.gz/076970d091910e407438dacaedc3c100555fc302"
+"@bower_components/iron-icons@PolymerElements/iron-icons#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-icons/tar.gz/4d66ba6cb1cb74813acc2185a1f7e284fd7aa5e8"
+  dependencies:
+    "@polymer/iron-icon" "^3.0.0-pre.26"
+    "@polymer/iron-iconset-svg" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-iconset-svg@PolymerElements/iron-iconset-svg#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-iconset-svg/tar.gz/071861bc0af94ed5e44c457ff554d30ca7d76a1a"
+"@bower_components/iron-iconset-svg@PolymerElements/iron-iconset-svg#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-iconset-svg/tar.gz/b28f28ab56050ce19c3114b3418b0fbddf484242"
+  dependencies:
+    "@polymer/iron-meta" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-iconset@PolymerElements/iron-iconset#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-iconset/tar.gz/3942b106436cea4fefa620fb6ef1cd3033fa91d2"
+"@bower_components/iron-iconset@PolymerElements/iron-iconset#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-iconset/tar.gz/eb4dc18e86fe31c1d65724a5cd786457b594c465"
+  dependencies:
+    "@polymer/iron-meta" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-image@PolymerElements/iron-image#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-image/tar.gz/7c9415a9c31cd7e70a9caac02717f31bd110a2dd"
+"@bower_components/iron-image@PolymerElements/iron-image#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-image/tar.gz/30c9bd057b5943c26c0c5d470a6bdf00a15281d7"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-input@PolymerElements/iron-input#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-input/tar.gz/b3f2a9f1c245a089d6ea44ed9347668b9dd4c787"
+"@bower_components/iron-input@PolymerElements/iron-input#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-input/tar.gz/81dcde69d4dddfd8bcc580f9e733906d4166273f"
+  dependencies:
+    "@polymer/iron-a11y-announcer" "^3.0.0-pre.26"
+    "@polymer/iron-validatable-behavior" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-jsonp-library@PolymerElements/iron-jsonp-library#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-jsonp-library/tar.gz/0ecfa8abd188d81b03df65a38fde7d77f4a48c13"
+"@bower_components/iron-jsonp-library@PolymerElements/iron-jsonp-library#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-jsonp-library/tar.gz/d432b8a46b329b4a6930786923a7df8bb02db16e"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-list@PolymerElements/iron-list#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-list/tar.gz/69081d2a9d2c9485096c1397e5bcbde333981fa2"
+"@bower_components/iron-list@PolymerElements/iron-list#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-list/tar.gz/547787ad83d380312e55f3478d401578c7faa008"
+  dependencies:
+    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-resizable-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-scroll-target-behavior" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-localstorage@PolymerElements/iron-localstorage#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-localstorage/tar.gz/8528a3ed4c6de84e2cc5b9222bc186b5829a9c23"
+"@bower_components/iron-localstorage@PolymerElements/iron-localstorage#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-localstorage/tar.gz/63b6e38eb49c7a0028c243f2790a76fd5926db63"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-media-query@PolymerElements/iron-media-query#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-media-query/tar.gz/1840027d1ba76dad13304187e5ec5dc2cfc19f05"
+"@bower_components/iron-media-query@PolymerElements/iron-media-query#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-media-query/tar.gz/63d416b361ae929834f7ca379413ece58e53e476"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-menu-behavior@PolymerElements/iron-menu-behavior#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-menu-behavior/tar.gz/ab2848944e927bcb0040ce39a6b36425d68ede77"
+"@bower_components/iron-menu-behavior@PolymerElements/iron-menu-behavior#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-menu-behavior/tar.gz/b001eb983d27d8ff9a7eb25e598b65b3763c3d20"
+  dependencies:
+    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/iron-selector" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-meta@PolymerElements/iron-meta#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-meta/tar.gz/ab9aaef253176bea50d8578109f62c7a20532e0e"
+"@bower_components/iron-meta@PolymerElements/iron-meta#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-meta/tar.gz/e5a395fc2a1c8623f0f6fd0c76c97aa9dee07690"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-overlay-behavior@PolymerElements/iron-overlay-behavior#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-overlay-behavior/tar.gz/0557487bf4f7f111dfce36b6cca6a06d7b78bd6d"
+"@bower_components/iron-overlay-behavior@PolymerElements/iron-overlay-behavior#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-overlay-behavior/tar.gz/25bfaa7e39b160c641ea8ebb641ef28d3bdf142e"
+  dependencies:
+    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-fit-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-resizable-behavior" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-pages@PolymerElements/iron-pages#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-pages/tar.gz/2c1967dbc5b6b4f02f7d05738fb8333736e5e029"
+"@bower_components/iron-pages@PolymerElements/iron-pages#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-pages/tar.gz/43297e1e9cda04a792a865bfaa869083f6ae11a4"
+  dependencies:
+    "@polymer/iron-resizable-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-selector" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-range-behavior@PolymerElements/iron-range-behavior#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-range-behavior/tar.gz/521b30fdd20f1e8118f141ed46d90655ac5f124a"
+"@bower_components/iron-range-behavior@PolymerElements/iron-range-behavior#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-range-behavior/tar.gz/93baa097a86e569a8cb078fefbfd75f16e7a7262"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-resizable-behavior@PolymerElements/iron-resizable-behavior#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-resizable-behavior/tar.gz/e2e27fd3ffe55ed0fa98f68cf2cedf8ea29ed61f"
+"@bower_components/iron-resizable-behavior@PolymerElements/iron-resizable-behavior#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-resizable-behavior/tar.gz/30b60b4817a6e2984aa7173b43470b68676ace25"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
 
 "@bower_components/iron-scroll-target-behavior@PolymerElements/iron-scroll-target-behavior#^1.1.0":
   version "0.0.0"
   resolved "https://codeload.github.com/PolymerElements/iron-scroll-target-behavior/tar.gz/a08739aeca0de04da78abd9a85e93f008c89d62d"
 
-"@bower_components/iron-selector@PolymerElements/iron-selector#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-selector/tar.gz/bcb18b50c4de2623bee094dd5e79071b2995a244"
+"@bower_components/iron-selector@PolymerElements/iron-selector#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-selector/tar.gz/e1f987588c9376b9089314fbb50dbcc220c4c5a8"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-test-helpers@PolymerElements/iron-test-helpers#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-test-helpers/tar.gz/89b1aa083e22d5b06b158bcbd49ec700c7e70201"
+"@bower_components/iron-test-helpers@PolymerElements/iron-test-helpers#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-test-helpers/tar.gz/df04e4eb099081d87a3fe6d443d4615aaec263c4"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-validatable-behavior@PolymerElements/iron-validatable-behavior#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-validatable-behavior/tar.gz/1e3dcc441a4f72b97248e64e59b6b6d309009992"
+"@bower_components/iron-validatable-behavior@PolymerElements/iron-validatable-behavior#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-validatable-behavior/tar.gz/56f994f0be6739390c3856dc55407cf694ed8ad3"
+  dependencies:
+    "@polymer/iron-meta" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/iron-validator-behavior@PolymerElements/iron-validator-behavior#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/iron-validator-behavior/tar.gz/7d45b9160c9915e749bb93d7cf6d0b6e65443f91"
+"@bower_components/iron-validator-behavior@PolymerElements/iron-validator-behavior#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/iron-validator-behavior/tar.gz/6f731dd0bd4d432dd3d96e7c2c909a86b49eea6d"
+  dependencies:
+    "@polymer/iron-meta" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
 "@bower_components/lodash@lodash/lodash#^3.7.0":
   version "3.10.1"
   resolved "https://codeload.github.com/lodash/lodash/tar.gz/dfbd78f71de0550068fc82ce6e013d443e5037d7"
 
-"@bower_components/marked-element@PolymerElements/marked-element#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/marked-element/tar.gz/a984e5bdd932dd1d902ab81ab03c5a545241c808"
+"@bower_components/marked-element@PolymerElements/marked-element#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/marked-element/tar.gz/4d486a4774dadee183e13ee83190b78ee83223d7"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+    marked "~0.3.9"
 
 "@bower_components/marked@chjj/marked#~0.3.3":
   version "0.3.19"
   resolved "https://codeload.github.com/chjj/marked/tar.gz/5d1baa4d7ca55b27cb08029ac785e98b6378fcf0"
 
-"@bower_components/neon-animation@PolymerElements/neon-animation#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/neon-animation/tar.gz/6f9e5de006652226cd22dd8ef24dae287a15d996"
+"@bower_components/neon-animation@PolymerElements/neon-animation#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/neon-animation/tar.gz/0e5b25337ed3942957efff10aa3e6be33b3c8820"
+  dependencies:
+    "@polymer/iron-resizable-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-selector" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
 "@bower_components/page@visionmedia/page.js#~1.6.3":
   version "1.6.4"
@@ -216,37 +313,74 @@
   dependencies:
     path-to-regexp "~1.2.1"
 
-"@bower_components/paper-badge@PolymerElements/paper-badge#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/paper-badge/tar.gz/d8bfd95c65544cf370ec99a303cd855810cbbb9e"
+"@bower_components/paper-badge@PolymerElements/paper-badge#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/paper-badge/tar.gz/e96bf27875ba2fe77f95452669f72b538fe8a8b4"
+  dependencies:
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/iron-icon" "^3.0.0-pre.26"
+    "@polymer/iron-resizable-behavior" "^3.0.0-pre.26"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/paper-behaviors@PolymerElements/paper-behaviors#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/paper-behaviors/tar.gz/fd8c137c0dad39de044ae84f9d406100c79ee32e"
+"@bower_components/paper-behaviors@PolymerElements/paper-behaviors#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/paper-behaviors/tar.gz/03130ef8acc3139fa5b53b09e44e6c5e3aa043ec"
+  dependencies:
+    "@polymer/iron-behaviors" "^3.0.0-pre.26"
+    "@polymer/iron-checked-element-behavior" "^3.0.0-pre.26"
+    "@polymer/paper-ripple" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/paper-button@PolymerElements/paper-button#2.0.0":
-  version "2.0.0"
-  resolved "https://codeload.github.com/PolymerElements/paper-button/tar.gz/3011b871faa3e74633566ff6b559e55c860779ce"
+"@bower_components/paper-button@PolymerElements/paper-button#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/paper-button/tar.gz/1ca40561281800cf536ca6ecffa8ce6970b3e93f"
+  dependencies:
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/paper-behaviors" "^3.0.0-pre.27"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/paper-card@PolymerElements/paper-card#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/paper-card/tar.gz/5e3f717031401ad9a296360fd2ce94b882a93aa2"
+"@bower_components/paper-card@PolymerElements/paper-card#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/paper-card/tar.gz/9e35087b56f9476b6134076c8de8c2f27dbb599c"
+  dependencies:
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/iron-image" "^3.0.0-pre.26"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/paper-checkbox@PolymerElements/paper-checkbox#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/paper-checkbox/tar.gz/82512b7187a905d2b92401ad479f2930fe8ed38b"
+"@bower_components/paper-checkbox@PolymerElements/paper-checkbox#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/paper-checkbox/tar.gz/62318d6be77980b8f7a525a4d7e422d3fc25d719"
+  dependencies:
+    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-checked-element-behavior" "^3.0.0-pre.26"
+    "@polymer/paper-behaviors" "^3.0.0-pre.27"
+    "@polymer/paper-ripple" "^3.0.0-pre.26"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/paper-dialog-behavior@PolymerElements/paper-dialog-behavior#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/paper-dialog-behavior/tar.gz/b75a95fc5dfaa58de60fa8c49fbdb38acab5229c"
+"@bower_components/paper-dialog-behavior@PolymerElements/paper-dialog-behavior#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/paper-dialog-behavior/tar.gz/b504fb73fbd37277d58103328f034106a775e3d4"
+  dependencies:
+    "@polymer/iron-overlay-behavior" "^3.0.0-pre.27"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
 "@bower_components/paper-dialog-scrollable@PolymerElements/paper-dialog-scrollable#^1.0.0":
   version "0.0.0"
   resolved "https://codeload.github.com/PolymerElements/paper-dialog-scrollable/tar.gz/c27a20cddb23311a5354aa58fedd4ab06ba6f77d"
 
-"@bower_components/paper-dialog@PolymerElements/paper-dialog#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/paper-dialog/tar.gz/0ae043898d7ae75f3d8a81307e1bc1ec6a2b5dc4"
+"@bower_components/paper-dialog@PolymerElements/paper-dialog#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/paper-dialog/tar.gz/5f4e0dc460c668f44e3bb986d30e4b27daa81e33"
+  dependencies:
+    "@polymer/iron-overlay-behavior" "^3.0.0-pre.27"
+    "@polymer/neon-animation" "^3.0.0-pre.26"
+    "@polymer/paper-dialog-behavior" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
 "@bower_components/paper-drawer-panel@PolymerElements/paper-drawer-panel#^1.0.0":
   version "0.0.0"
@@ -256,85 +390,179 @@
   version "0.0.0"
   resolved "https://codeload.github.com/PolymerElements/paper-fab/tar.gz/064cfb43ea7d38c1a28df45dfef8f564857d8c6b"
 
-"@bower_components/paper-header-panel@PolymerElements/paper-header-panel#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/paper-header-panel/tar.gz/139431b345c04fb3efc7562918609ecaeb32a946"
+"@bower_components/paper-header-panel@PolymerElements/paper-header-panel#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/paper-header-panel/tar.gz/b04af975edcbd4a50d21b6457ef5c5cbc3efeb63"
+  dependencies:
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/paper-icon-button@PolymerElements/paper-icon-button#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/paper-icon-button/tar.gz/39bd3b8b135e6b791f16f379f3ca26372672ab29"
+"@bower_components/paper-input@PolymerElements/paper-input#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/paper-input/tar.gz/22ccf30d393246013cb1e0d9ea1eb5902db0b0a0"
+  dependencies:
+    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-autogrow-textarea" "^3.0.0-pre.26"
+    "@polymer/iron-behaviors" "^3.0.0-pre.26"
+    "@polymer/iron-form-element-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-input" "^3.0.0-pre.26"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/paper-input@PolymerElements/paper-input#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/paper-input/tar.gz/6c2303503edf9288acc1fbfefd62179daa2fd42b"
+"@bower_components/paper-item@PolymerElements/paper-item#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/paper-item/tar.gz/eead8a539991b9507125870f3cdc24c0fed359a9"
+  dependencies:
+    "@polymer/iron-behaviors" "^3.0.0-pre.26"
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/paper-item@PolymerElements/paper-item#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/paper-item/tar.gz/afcd51ca27b15b0a2afb8cb735eea61b82a31a94"
+"@bower_components/paper-material@PolymerElements/paper-material#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/paper-material/tar.gz/14a2f063d24d23afec41a176392d34a27fe3731d"
+  dependencies:
+    "@polymer/paper-styles" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/paper-material@PolymerElements/paper-material#2.0.0":
+"@bower_components/paper-more-button@Collaborne/paper-more-button#2.0.1":
   version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/paper-material/tar.gz/e8f2ac0a9b8f8135e8312537fab79c85654ace20"
+  resolved "https://codeload.github.com/Collaborne/paper-more-button/tar.gz/9d6a9e11891d5bddd7018ea71ebac0ad5793f5f7"
 
-"@bower_components/paper-more-button@Collaborne/paper-more-button#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/Collaborne/paper-more-button/tar.gz/7ab2fd63be98e50d5fcfc7830a6816d5477d4d2a"
+"@bower_components/paper-progress@PolymerElements/paper-progress#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/paper-progress/tar.gz/979c3963f1c61b56e394bc478b15e4528961cf1c"
+  dependencies:
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/iron-range-behavior" "^3.0.0-pre.26"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/paper-progress@PolymerElements/paper-progress#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/paper-progress/tar.gz/dbf607f19079d380e2a444820a6866e0bd950701"
+"@bower_components/paper-radio-button@PolymerElements/paper-radio-button#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/paper-radio-button/tar.gz/90fff5bd6dc86b4a4adbe6358e86567aea918212"
+  dependencies:
+    "@polymer/iron-checked-element-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/paper-behaviors" "^3.0.0-pre.27"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/paper-radio-button@PolymerElements/paper-radio-button#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/paper-radio-button/tar.gz/2642fc7ee6e9a9371aa04a81c87dddd77a406944"
+"@bower_components/paper-radio-group@PolymerElements/paper-radio-group#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/paper-radio-group/tar.gz/b5fe461aa06f2b177df5adfb4efb8c279c49480b"
+  dependencies:
+    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-menu-behavior" "^3.0.0-pre.26"
+    "@polymer/paper-radio-button" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/paper-radio-group@PolymerElements/paper-radio-group#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/paper-radio-group/tar.gz/21df8245ecc1812295ad171a30064297520fad43"
+"@bower_components/paper-ripple@PolymerElements/paper-ripple#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/paper-ripple/tar.gz/1139dee6c72e2286785f0255c737073d39ff940a"
+  dependencies:
+    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/paper-ripple@PolymerElements/paper-ripple#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/paper-ripple/tar.gz/95f4ed316b51e372723f5335958e30345329e48c"
+"@bower_components/paper-scroll-header-panel@PolymerElements/paper-scroll-header-panel#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/paper-scroll-header-panel/tar.gz/3fa4e0fb12c31da5eb0c07ea1f53656f4d20b88c"
+  dependencies:
+    "@polymer/iron-resizable-behavior" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/paper-scroll-header-panel@PolymerElements/paper-scroll-header-panel#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/paper-scroll-header-panel/tar.gz/982709ccd8e1da34393f8dd3ba25fa7caae72744"
+"@bower_components/paper-search@chadweimer/paper-search#^3.0.0":
+  version "3.0.1"
+  resolved "https://codeload.github.com/chadweimer/paper-search/tar.gz/46c6fb4f8303640f79c9f6198fde361162fa1bbe"
+  dependencies:
+    "@cwmr/paper-more-button" "^3.0.0"
+    "@polymer/app-layout" "^3.0.0"
+    "@polymer/iron-a11y-keys-behavior" "^3.0.0"
+    "@polymer/iron-flex-layout" "^3.0.0"
+    "@polymer/iron-icon" "^3.0.0"
+    "@polymer/iron-icons" "^3.0.0"
+    "@polymer/iron-input" "^3.0.0"
+    "@polymer/iron-list" "^3.0.0"
+    "@polymer/paper-badge" "^3.0.0"
+    "@polymer/paper-button" "^3.0.0"
+    "@polymer/paper-checkbox" "^3.0.0"
+    "@polymer/paper-dialog" "^3.0.0"
+    "@polymer/paper-icon-button" "^3.0.0"
+    "@polymer/paper-item" "^3.0.0"
+    "@polymer/paper-ripple" "^3.0.0"
+    "@polymer/paper-spinner" "^3.0.0"
+    "@polymer/paper-styles" "^3.0.0"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/paper-search@Collaborne/paper-search#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/Collaborne/paper-search/tar.gz/889af2363fd5b75ed6d4e262eef0ee0b7b590d40"
+"@bower_components/paper-slider@PolymerElements/paper-slider#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/paper-slider/tar.gz/ce2cbfb6663a798040547ea6cb2d1bab481a11bb"
+  dependencies:
+    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-behaviors" "^3.0.0-pre.26"
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/iron-form-element-behavior" "^3.0.0-pre.26"
+    "@polymer/paper-behaviors" "^3.0.0-pre.27"
+    "@polymer/paper-input" "^3.0.0-pre.26"
+    "@polymer/paper-progress" "^3.0.0-pre.26"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/paper-slider@PolymerElements/paper-slider#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/paper-slider/tar.gz/96c562c8ad13ba4bddee377764b57c566d091d43"
+"@bower_components/paper-spinner@PolymerElements/paper-spinner#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/paper-spinner/tar.gz/a3686459ff7c93761e4e42e7cc51b917d9b939fb"
+  dependencies:
+    "@polymer/paper-styles" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/paper-spinner@PolymerElements/paper-spinner#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/paper-spinner/tar.gz/3c354da07d95ac78af3edb7a5b98d4d28a0d0fd8"
+"@bower_components/paper-styles@PolymerElements/paper-styles#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/paper-styles/tar.gz/1fce3c6a91f5796120cb72c474db19a25a6f51f2"
+  dependencies:
+    "@polymer/font-roboto" "^3.0.1"
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/paper-styles@PolymerElements/paper-styles#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/paper-styles/tar.gz/739c14c9114dd3f80172e43d4ea2c5faf9bae132"
+"@bower_components/paper-tabs@PolymerElements/paper-tabs#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/paper-tabs/tar.gz/165518c21326977e7b3c948a7c887d89f2a44dfc"
+  dependencies:
+    "@polymer/iron-behaviors" "^3.0.0-pre.26"
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/iron-icon" "^3.0.0-pre.26"
+    "@polymer/iron-iconset-svg" "^3.0.0-pre.26"
+    "@polymer/iron-menu-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-resizable-behavior" "^3.0.0-pre.26"
+    "@polymer/paper-behaviors" "^3.0.0-pre.27"
+    "@polymer/paper-icon-button" "^3.0.0-pre.26"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/paper-tabs@PolymerElements/paper-tabs#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/paper-tabs/tar.gz/66e3d15a44acbb77ea09f663ab37b11bf18bdd5f"
+"@bower_components/paper-toast@PolymerElements/paper-toast#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/paper-toast/tar.gz/a6bdfcc247144b3482d1d7fbe14649128373d6ea"
+  dependencies:
+    "@polymer/iron-a11y-announcer" "^3.0.0-pre.26"
+    "@polymer/iron-fit-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-overlay-behavior" "^3.0.0-pre.27"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/paper-toast@PolymerElements/paper-toast#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/paper-toast/tar.gz/d1ece312011034304773208e1bde056ea31d109d"
+"@bower_components/paper-toggle-button@PolymerElements/paper-toggle-button#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/paper-toggle-button/tar.gz/f1879aa4c062e1f10c8d3d3f3d971aea6975c4ff"
+  dependencies:
+    "@polymer/iron-checked-element-behavior" "^3.0.0-pre.26"
+    "@polymer/paper-behaviors" "^3.0.0-pre.27"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
-"@bower_components/paper-toggle-button@PolymerElements/paper-toggle-button#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/paper-toggle-button/tar.gz/3374d13e990891a751a4e8c383bfabedcf32848d"
-
-"@bower_components/paper-toolbar@PolymerElements/paper-toolbar#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/paper-toolbar/tar.gz/ebd6b6eb19156dfee97548f87e783b1a006db694"
-
-"@bower_components/platinum-elements@PolymerElements/platinum-elements#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/platinum-elements/tar.gz/43fcda76ab7638ea67d65bdaa48fa4c1a4d307b9"
+"@bower_components/paper-toolbar@PolymerElements/paper-toolbar#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/paper-toolbar/tar.gz/40738c8e8079068938495965cb9054c571c2f47c"
+  dependencies:
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
 
 "@bower_components/platinum-push-messaging@PolymerElements/platinum-push-messaging#~1.0.0":
   version "0.0.0"
@@ -344,17 +572,12 @@
   version "0.0.0"
   resolved "https://codeload.github.com/PolymerElements/platinum-sw/tar.gz/49d4898024e785133be6cffdd2d2357133fbec58"
 
-"@bower_components/polymer@Polymer/polymer#2.0.0":
-  version "2.0.0"
-  resolved "https://codeload.github.com/Polymer/polymer/tar.gz/49537f25423c0c7f84a2a4b21ddc22f3660782a8"
-
-"@bower_components/prism-element@PolymerElements/prism-element#2.0.0":
-  version "0.0.0"
-  resolved "https://codeload.github.com/PolymerElements/prism-element/tar.gz/f8cf91a5ef13de1d3c4025f7018d8802dbf82763"
-
-"@bower_components/promise-polyfill@PolymerLabs/promise-polyfill#2.0.0":
-  version "2.0.1"
-  resolved "https://codeload.github.com/PolymerLabs/promise-polyfill/tar.gz/bbfc5dc87e795a84b2436fbcc04cfb6fe3bb6209"
+"@bower_components/prism-element@PolymerElements/prism-element#3.0.0":
+  version "3.0.0"
+  resolved "https://codeload.github.com/PolymerElements/prism-element/tar.gz/c673a286c8a70dbd917f208678c99de528b062dd"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+    prismjs "^1.11.0"
 
 "@bower_components/shadycss@webcomponents/shadycss#^v1.1.0":
   version "1.9.1"
@@ -375,17 +598,390 @@
     path-to-regexp "^1.0.1"
     serviceworker-cache-polyfill coonsta/cache-polyfill
 
-"@bower_components/test-fixture@PolymerElements/test-fixture#2.0.0":
-  version "1.1.1"
-  resolved "https://codeload.github.com/PolymerElements/test-fixture/tar.gz/365c7e651be61ddac4257f6aef6e2f1ddfe5692d"
+"@bower_components/test-fixture@PolymerElements/test-fixture#3.0.0":
+  version "3.0.0-rc.1"
+  resolved "https://codeload.github.com/PolymerElements/test-fixture/tar.gz/05caebd9ecbb464024455923bd351d2ba640932e"
 
 "@bower_components/web-animations-js@web-animations/web-animations-js#^2.2.0":
   version "2.3.2"
   resolved "https://codeload.github.com/web-animations/web-animations-js/tar.gz/64d83730282fdbce733460d44be52c132d6c04e9"
 
-"@bower_components/webcomponentsjs@webcomponents/webcomponentsjs#^1.0.0":
-  version "1.3.3"
-  resolved "https://codeload.github.com/webcomponents/webcomponentsjs/tar.gz/d2c519dc8030e3fb3e86ee8ebbf5a15ddfd70b29"
+"@bower_components/webcomponentsjs@webcomponents/webcomponentsjs#^2.0.0":
+  version "2.2.10"
+  resolved "https://codeload.github.com/webcomponents/webcomponentsjs/tar.gz/e3d74c3b408bdf80d87cf6178f04a45859de34ab"
+
+"@cwmr/paper-more-button@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@cwmr/paper-more-button/-/paper-more-button-3.0.0.tgz#865b1a44feeead30a26e97f153b53ab350ea8bce"
+  integrity sha512-sghvXjM7m7C3DP25o41gCP8nb2Lz8fGBg3PpAo7nMxJG1PaDvfxHLya5PsHHWdIPFMUZWg5GBBWHwi8xvBkuBA==
+  dependencies:
+    "@polymer/paper-button" "^3.0.0"
+    "@polymer/paper-spinner" "^3.0.0"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/app-layout@^3.0.0", "@polymer/app-layout@^3.0.2":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@polymer/app-layout/-/app-layout-3.1.0.tgz#b146cd2ce202e079ac51059a4fcaef03f5b2f3c4"
+  integrity sha512-+jf5/TtUDj/la9Vi59ooGNjnTN8JTkyIUK8gxAms0N3MmyeqrmcNLlJKDVyE6IIGKz0WfFeGKqKtmtTLHrZIlg==
+  dependencies:
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/iron-media-query" "^3.0.0-pre.26"
+    "@polymer/iron-resizable-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-scroll-target-behavior" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/font-roboto@^3.0.1":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@polymer/font-roboto/-/font-roboto-3.0.2.tgz#80cdaa7225db2359130dfb2c6d9a3be1820020c3"
+  integrity sha512-tx5TauYSmzsIvmSqepUPDYbs4/Ejz2XbZ1IkD7JEGqkdNUJlh+9KU85G56Tfdk/xjEZ8zorFfN09OSwiMrIQWA==
+
+"@polymer/iron-a11y-announcer@^3.0.0-pre.26":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-a11y-announcer/-/iron-a11y-announcer-3.0.2.tgz#730dd36ccb2e042ecd5160ba439c2bf2f8a97412"
+  integrity sha512-LqnMF39mXyxSSRbTHRzGbcJS8nU0NVTo2raBOgOlpxw5yfGJUVcwaTJ/qy5NtWCZLRfa4suycf0oAkuUjHTXHQ==
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-a11y-keys-behavior@^3.0.0", "@polymer/iron-a11y-keys-behavior@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-a11y-keys-behavior/-/iron-a11y-keys-behavior-3.0.1.tgz#2868ea72912d2007ffab4734684a91f5aac49b84"
+  integrity sha512-lnrjKq3ysbBPT/74l0Fj0U9H9C35Tpw2C/tpJ8a+5g8Y3YJs1WSZYnEl1yOkw6sEyaxOq/1DkzH0+60gGu5/PQ==
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-ajax@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-ajax/-/iron-ajax-3.0.1.tgz#831781be31ced011ac7243a46e34a775a4bb3133"
+  integrity sha512-7+TPEAfWsRdhj1Y8UeF1759ktpVu+c3sG16rJiUC3wF9+woQ9xI1zUm2d59i7Yc3aDEJrR/Q8Y262KlOvyGVNg==
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-autogrow-textarea@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-autogrow-textarea/-/iron-autogrow-textarea-3.0.1.tgz#0205d9c5ca16f3afd505f41e9037989707d59dce"
+  integrity sha512-FgSL7APrOSL9Vu812sBCFlQ17hvnJsBAV2C2e1UAiaHhB+dyfLq8gGdGUpqVWuGJ50q4Y/49QwCNnLf85AdVYA==
+  dependencies:
+    "@polymer/iron-behaviors" "^3.0.0-pre.26"
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/iron-validatable-behavior" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-behaviors@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-behaviors/-/iron-behaviors-3.0.1.tgz#a3b6f876779a7f0a91a15e4423890968b6525901"
+  integrity sha512-IMEwcv1lhf1HSQxuyWOUIL0lOBwmeaoSTpgCJeP9IBYnuB1SPQngmfRuHKgK6/m9LQ9F9miC7p3HeQQUdKAE0w==
+  dependencies:
+    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-checked-element-behavior@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-checked-element-behavior/-/iron-checked-element-behavior-3.0.1.tgz#7a4b49646603657ab2c5e5ca7bd97f34444fdaf5"
+  integrity sha512-aDr0cbCNVq49q+pOqa6CZutFh+wWpwPMLpEth9swx+GkAj+gCURhuQkaUYhIo5f2egDbEioR1aeHMnPlU9dQZA==
+  dependencies:
+    "@polymer/iron-form-element-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-validatable-behavior" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-fit-behavior@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-fit-behavior/-/iron-fit-behavior-3.0.1.tgz#e5c26b0b4d9e74f0c3d6d56b9cfd460e84bddf0d"
+  integrity sha512-/M0B1L30k31vmwNBaGuZcxzUAhJSHoGccb/DF0CDKI/hT8UlkTvcyemaWdOpmHHLgY52ceKIkRwA3AeXrKyvaQ==
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-flex-layout@^3.0.0", "@polymer/iron-flex-layout@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-flex-layout/-/iron-flex-layout-3.0.1.tgz#36f9e1a8eb792d279b2bc75d362628721ad37f0c"
+  integrity sha512-7gB869czArF+HZcPTVSgvA7tXYFze9EKckvM95NB7SqYF+NnsQyhoXgKnpFwGyo95lUjUW9TFDLUwDXnCYFtkw==
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-form-element-behavior@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-form-element-behavior/-/iron-form-element-behavior-3.0.1.tgz#4c79e1981d7796ce659e997f3b8f5e14b4a075a4"
+  integrity sha512-G/e2KXyL5AY7mMjmomHkGpgS0uAf4ovNpKhkuUTRnMuMJuf589bKqE85KN4ovE1Tzhv2hJoh/igyD6ekHiYU1A==
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-icon@^3.0.0", "@polymer/iron-icon@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-icon/-/iron-icon-3.0.1.tgz#93211c39d8825fe4965a68419566036c1df291eb"
+  integrity sha512-QLPwirk+UPZNaLnMew9VludXA4CWUCenRewgEcGYwdzVgDPCDbXxy6vRJjmweZobMQv/oVLppT2JZtJFnPxX6g==
+  dependencies:
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/iron-meta" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-icons@^3.0.0":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-icons/-/iron-icons-3.0.1.tgz#c1bd31d8483afbdb5422cdc384081e19c9267cfe"
+  integrity sha512-xtEI8erH2GIBiF3QxEMyW81XuVjguu6Le5WjEEpX67qd9z7jjmc4T/ke3zRUlnDydex9p8ytcwVpMIKcyvjYAQ==
+  dependencies:
+    "@polymer/iron-icon" "^3.0.0-pre.26"
+    "@polymer/iron-iconset-svg" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-iconset-svg@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-iconset-svg/-/iron-iconset-svg-3.0.1.tgz#568d6e7dbc120299dae63be3600aeba0d30ddbea"
+  integrity sha512-XNwURbNHRw6u2fJe05O5fMYye6GSgDlDqCO+q6K1zAnKIrpgZwf2vTkBd5uCcZwsN0FyCB3mvNZx4jkh85dRDw==
+  dependencies:
+    "@polymer/iron-meta" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-image@^3.0.0-pre.26":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-image/-/iron-image-3.0.2.tgz#425ee6269634e024dbea726a91a61724ae4402b6"
+  integrity sha512-VyYtnewGozDb5sUeoLR1OvKzlt5WAL6b8Od7fPpio5oYL+9t061/nTV8+ZMrpMgF2WgB0zqM/3K53o3pbK5v8Q==
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-input@^3.0.0", "@polymer/iron-input@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-input/-/iron-input-3.0.1.tgz#dc866a25107f9b38d9ca4512dd9a3e51b78b4915"
+  integrity sha512-WLx13kEcbH9GKbj9+pWR6pbJkA5kxn3796ynx6eQd2rueMyUfVTR3GzOvadBKsciUuIuzrxpBWZ2+3UcueVUQQ==
+  dependencies:
+    "@polymer/iron-a11y-announcer" "^3.0.0-pre.26"
+    "@polymer/iron-validatable-behavior" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-list@^3.0.0":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-list/-/iron-list-3.0.2.tgz#9e6b80e503328dc29217dbe26f94faa47adb4124"
+  integrity sha512-A6GMTx/4mWxGn3BC6weaXqRC7B0coNjgEoxwVbEcDNwovqntv0aWs5sT9+PI4zvV/syWL5rAESyJDvOxTatoEw==
+  dependencies:
+    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-resizable-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-scroll-target-behavior" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-media-query@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-media-query/-/iron-media-query-3.0.1.tgz#5cd8a1c1e8c9b8bafd3dd5da14e0f8d2cfa76d83"
+  integrity sha512-czUX1pm1zfmfcZtq5J57XFkcobBv08Y50exp0/3v8Bos5VL/jv2tU0RwiTfDBxUMhjicGbgwEBFQPY2V5DMzyw==
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-menu-behavior@^3.0.0-pre.26":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-menu-behavior/-/iron-menu-behavior-3.0.2.tgz#f8fa2d59af472a4cb4fb0359c704b808bc2c105d"
+  integrity sha512-8dpASkFNBIkxAJWsFLWIO1M7tKM0+wKs3PqdeF/dDdBciwoaaFgC2K1XCZFZnbe2t9/nJgemXxVugGZAWpYCGg==
+  dependencies:
+    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/iron-selector" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-meta@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-meta/-/iron-meta-3.0.1.tgz#7f140628d127b0a284f882f1bb323a261bc125f5"
+  integrity sha512-pWguPugiLYmWFV9UWxLWzZ6gm4wBwQdDy4VULKwdHCqR7OP7u98h+XDdGZsSlDPv6qoryV/e3tGHlTIT0mbzJA==
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-overlay-behavior@^3.0.0-pre.27":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-overlay-behavior/-/iron-overlay-behavior-3.0.2.tgz#6a12a3f4eab4721eb6978ed950be534c9c283983"
+  integrity sha512-j1qmt6mJHCwpe1mKOvqK5kcCUPQr5LSrlqpgRDbUuLgUfNJ/vGTipjrkBlfbEUagm5FEQdc1VLPLSQP6WVuP9g==
+  dependencies:
+    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-fit-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-resizable-behavior" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-range-behavior@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-range-behavior/-/iron-range-behavior-3.0.1.tgz#0aba35addb0a390bd3eafc307c35389cddbe8677"
+  integrity sha512-+jtL9v45M/T1RJleWyQaNH84S9/mIIR+AjNbYIttbKGp1eG+98j8MDWe7LXNtg79V2LQnE/+VS82cBeELyGVeg==
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-resizable-behavior@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-resizable-behavior/-/iron-resizable-behavior-3.0.1.tgz#e284348ed7c1c7e263f7039297532fa954025ea2"
+  integrity sha512-FyHxRxFspVoRaeZSWpT3y0C9awomb4tXXolIJcZ7RvXhMP632V5lez+ch5G5SwK0LpnAPkg35eB0LPMFv+YMMQ==
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-scroll-target-behavior@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-scroll-target-behavior/-/iron-scroll-target-behavior-3.0.1.tgz#29fa644b320fb29ab6c68eb6d08a6520157764ac"
+  integrity sha512-xg1WanG25BIkQE8rhuReqY9zx1K5M7F+YAIYpswEp5eyDIaZ1Y3vUmVeQ3KG+hiSugzI1M752azXN7kvyhOBcQ==
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-selector@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-selector/-/iron-selector-3.0.1.tgz#e845bec58489c96b4e7609525532437869ad5a88"
+  integrity sha512-sBVk2uas6prW0glUe2xEJJYlvxmYzM40Au9OKbfDK2Qekou/fLKcBRyIYI39kuI8zWRaip8f3CI8qXcUHnKb1A==
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-validatable-behavior@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-validatable-behavior/-/iron-validatable-behavior-3.0.1.tgz#73538f005a07741c31b6fc1e981168c3d3e0d92b"
+  integrity sha512-wwpYh6wOa4fNI+jH5EYKC7TVPYQ2OfgQqocWat7GsNWcsblKYhLYbwsvEY5nO0n2xKqNfZzDLrUom5INJN7msQ==
+  dependencies:
+    "@polymer/iron-meta" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/neon-animation@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/neon-animation/-/neon-animation-3.0.1.tgz#6658e4b524abc057477772a7473292493d366c24"
+  integrity sha512-cDDc0llpVCe0ATbDS3clDthI54Bc8YwZIeTGGmBJleKOvbRTUC5+ssJmRL+VwVh+VM5FlnQlx760ppftY3uprg==
+  dependencies:
+    "@polymer/iron-resizable-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-selector" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/paper-badge@^3.0.0":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-badge/-/paper-badge-3.0.1.tgz#ea973090342c66f99ea6ef1d32fc534ee40630e8"
+  integrity sha512-9lHB/AFPuDAY/+OPNio1Mi6JUAM8yQqzJEAkk99IwcCl9VB6uCjlrXVfistrYIv7z+Wy4SZHNEtA6xR1+FhCDg==
+  dependencies:
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/iron-icon" "^3.0.0-pre.26"
+    "@polymer/iron-resizable-behavior" "^3.0.0-pre.26"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/paper-behaviors@^3.0.0-pre.27":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-behaviors/-/paper-behaviors-3.0.1.tgz#83f1cd06489f484c1b108a2967fb01952df722ad"
+  integrity sha512-6knhj69fPJejv8qR0kCSUY+Q0XjaUf0OSnkjRjmTJPAwSrRYtgqE+l6P1FfA+py1X/cUjgne9EF5rMZAKJIg1g==
+  dependencies:
+    "@polymer/iron-behaviors" "^3.0.0-pre.26"
+    "@polymer/iron-checked-element-behavior" "^3.0.0-pre.26"
+    "@polymer/paper-ripple" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/paper-button@^3.0.0":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-button/-/paper-button-3.0.1.tgz#f13b019137e3f6ccc4d04d0b1f27f4830ea5774d"
+  integrity sha512-JRNBc+Oj9EWnmyLr7FcCr8T1KAnEHPh6mosln9BUdkM+qYaYsudSICh3cjTIbnj6AuF5OJidoLkM1dlyj0j6Zg==
+  dependencies:
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/paper-behaviors" "^3.0.0-pre.27"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/paper-checkbox@^3.0.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-checkbox/-/paper-checkbox-3.1.0.tgz#66b903ae5814db237d027deb4a3f3430f48d905b"
+  integrity sha512-kXm6yDG1tT8if0XuJ2cc9NF+g8Ev4wG+rnf0a+Sx+O7J6fn1jcnBlYn72FlrfjVjDQZDBFmT6nynhD5PvFw8iQ==
+  dependencies:
+    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-checked-element-behavior" "^3.0.0-pre.26"
+    "@polymer/paper-behaviors" "^3.0.0-pre.27"
+    "@polymer/paper-ripple" "^3.0.0-pre.26"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/paper-dialog-behavior@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-dialog-behavior/-/paper-dialog-behavior-3.0.1.tgz#819b2fbb9444c1c318ddf55f02819bb29a85657b"
+  integrity sha512-wbI4kCK8le/9MHT+IXzvHjoatxf3kd3Yn0tgozAiAwfSZ7N4Ubpi5MHrK0m9S9PeIxKokAgBYdTUrezSE5378A==
+  dependencies:
+    "@polymer/iron-overlay-behavior" "^3.0.0-pre.27"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/paper-dialog@^3.0.0":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-dialog/-/paper-dialog-3.0.1.tgz#728ebdbfc4d35ec1485e543434cef5dba476f15e"
+  integrity sha512-KvglYbEq7AWJvui2j6WKLnOvgVMeGjovAydGrPRj7kVzCiD49Eq/hpYFJTRV5iDcalWH+mORUpw+jrFnG9+Kgw==
+  dependencies:
+    "@polymer/iron-overlay-behavior" "^3.0.0-pre.27"
+    "@polymer/neon-animation" "^3.0.0-pre.26"
+    "@polymer/paper-dialog-behavior" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/paper-icon-button@^3.0.0", "@polymer/paper-icon-button@^3.0.0-pre.26":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-icon-button/-/paper-icon-button-3.0.2.tgz#a1254faadc2c8dd135ce1ae33bcc161a94c31f65"
+  integrity sha512-kOdxQgnKL097bggFF6PWvsBYuWg+MCcoHoTHX6bh/MuZoWFZNjrFntFqwuB4oEbpjCpfm4moA33muPJFj7CihQ==
+  dependencies:
+    "@polymer/iron-icon" "^3.0.0-pre.26"
+    "@polymer/paper-behaviors" "^3.0.0-pre.27"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/paper-input@^3.0.0-pre.26":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-input/-/paper-input-3.0.2.tgz#c70559ed9b38a34efda972de8bcb7caed3c299d5"
+  integrity sha512-EoyJLsUCo7zLQp63jG7+qbRcN7ynT0p9MktDeH+dnl29UqFD4Ovj2/O5cSgq3lA3dYrei4vHF11Qmdmk7iab7Q==
+  dependencies:
+    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-autogrow-textarea" "^3.0.0-pre.26"
+    "@polymer/iron-behaviors" "^3.0.0-pre.26"
+    "@polymer/iron-form-element-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-input" "^3.0.0-pre.26"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/paper-item@^3.0.0":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-item/-/paper-item-3.0.1.tgz#05b3543483e556cd5532431cd1751a84343989b5"
+  integrity sha512-KTk2N+GsYiI/HuubL3sxebZ6tteQbBOAp4QVLAnbjSPmwl+mJSDWk+omuadesU0bpkCwaWVs3fHuQsmXxy4pkw==
+  dependencies:
+    "@polymer/iron-behaviors" "^3.0.0-pre.26"
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/paper-progress@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-progress/-/paper-progress-3.0.1.tgz#2943054a909ad381236b3c7aecee078123bba839"
+  integrity sha512-5nguG+tmnyoaWKVNG8Smtno2uLSPBgEsT3f20JY8yJTjUBYWaqa8E3l5RLkTRXgA4x9OnvLb8/CdlQWXQIogBg==
+  dependencies:
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/iron-range-behavior" "^3.0.0-pre.26"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/paper-radio-button@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-radio-button/-/paper-radio-button-3.0.1.tgz#89d7033ff976a28a76ac7f516b86ea09cb3a4bf7"
+  integrity sha512-ltCdgolOrmTeG3IxHhfMgxRc9AloNpoIwRMInrTI5Nzva4yOzSpP01bfpEwBpTl11o0NYxqfYYCxCjLQGRq9ng==
+  dependencies:
+    "@polymer/iron-checked-element-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/paper-behaviors" "^3.0.0-pre.27"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/paper-ripple@^3.0.0", "@polymer/paper-ripple@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-ripple/-/paper-ripple-3.0.1.tgz#28e506f079f840703bf8cbfd62966e1e83ebc3c3"
+  integrity sha512-dgOe12GyCF1VZBLUQqnzGWlf3xb255FajNCVB1VFj/AtskYtoamnafa7m3a+1vs+C8qbg4Benn5KwgxVDSW4cg==
+  dependencies:
+    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/paper-spinner@^3.0.0":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-spinner/-/paper-spinner-3.0.2.tgz#c857c79f0494bc74e9ae293839d00f37fcf29f78"
+  integrity sha512-XUzu8/4NH+pnNZUTI2MxtOKFAr0EOsW7eGhTg3VBhTh7DDW/q3ewzwYRWnqNJokX9BEnxKMiXXaIeTEBq4k2dw==
+  dependencies:
+    "@polymer/paper-styles" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/paper-styles@^3.0.0", "@polymer/paper-styles@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-styles/-/paper-styles-3.0.1.tgz#bd4962b83ab8432cd1cf197bb5222d3a08f135e1"
+  integrity sha512-y6hmObLqlCx602TQiSBKHqjwkE7xmDiFkoxdYGaNjtv4xcysOTdVJsDR/R9UHwIaxJ7gHlthMSykir1nv78++g==
+  dependencies:
+    "@polymer/font-roboto" "^3.0.1"
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/polymer@^3.0.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@polymer/polymer/-/polymer-3.3.0.tgz#52a0665ac29654728e8f46e8ee178c02c49efdd0"
+  integrity sha512-rij7suomS7DxdBamnwr/Xa0V5hpypf7I9oYKseF2FWz5Xh2a3wJNpVjgJy1adXVCxqIyPhghsrthnfCt7EblsQ==
+  dependencies:
+    "@webcomponents/shadycss" "^1.9.1"
 
 "@types/clone@^0.1.29":
   version "0.1.30"
@@ -437,6 +1033,11 @@
   integrity sha1-6Cekk6RDsVbhtYKi5MO9wAQPLuc=
   dependencies:
     "@types/node" "6.0.*"
+
+"@webcomponents/shadycss@^1.9.1":
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/@webcomponents/shadycss/-/shadycss-1.9.1.tgz#d769fbadfa504f11b84caeef26701f89070ec49a"
+  integrity sha512-IaZOnWOKXHghqk/WfPNDRIgDBi3RsVPY2IFAw6tYiL9UBGvQRy5R6uC+Fk7qTZsReTJ0xh5MTT8yAcb3MUR4mQ==
 
 abbrev@1:
   version "1.1.1"
@@ -846,6 +1447,15 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
+clipboard@^2.0.0:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/clipboard/-/clipboard-2.0.4.tgz#836dafd66cf0fea5d71ce5d5b0bf6e958009112d"
+  integrity sha512-Vw26VSLRpJfBofiVaFb/I8PVfdI1OxKcYShe6fm0sP/DtmiWQNCjhM/okTvdCo0G+lMMm1rMYbk4IK4x1X+kgQ==
+  dependencies:
+    good-listener "^1.2.2"
+    select "^1.1.2"
+    tiny-emitter "^2.0.0"
+
 cliui@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/cliui/-/cliui-3.2.0.tgz#120601537a916d29940f934da3b48d585a39213d"
@@ -1110,6 +1720,11 @@ del@^4.1.1:
     p-map "^2.0.0"
     pify "^4.0.1"
     rimraf "^2.6.3"
+
+delegate@^3.1.2:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/delegate/-/delegate-3.2.0.tgz#b66b71c3158522e8ab5744f720d8ca0c2af59166"
+  integrity sha512-IofjkYBZaZivn0V8nnsMJGBr4jVLxHDheKSW88PyxS5QC4Vo9ZbZVvhzlSxY87fVq3STR6r+4cGepyHkcWOQSw==
 
 delegates@^1.0.0:
   version "1.0.0"
@@ -1618,6 +2233,13 @@ glogg@^1.0.0:
   integrity sha512-5mwUoSuBk44Y4EshyiqcH95ZntbDdTQqA3QYSrxmzj28Ai0vXBGMH1ApSANH14j2sIRtqCEyg6PfsuP7ElOEDA==
   dependencies:
     sparkles "^1.0.0"
+
+good-listener@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/good-listener/-/good-listener-1.2.2.tgz#d53b30cdf9313dffb7dc9a0d477096aa6d145c50"
+  integrity sha1-1TswzfkxPf+33JoNR3CWqm0UXFA=
+  dependencies:
+    delegate "^3.1.2"
 
 graceful-fs@^4.0.0, graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   version "4.2.2"
@@ -2200,6 +2822,11 @@ map-visit@^1.0.0:
   integrity sha1-7Nyo8TFE5mDxtb1B8S80edmN+48=
   dependencies:
     object-visit "^1.0.0"
+
+marked@~0.3.9:
+  version "0.3.19"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.19.tgz#5d47f709c4c9fc3c216b6d46127280f40b39d790"
+  integrity sha512-ea2eGWOqNxPcXv8dyERdSr/6FmzvWwzjMxpfGB/sbMccXoct+xY+YukPD+QTUZwyvK7BZwcr4m21WBOW41pAkg==
 
 matchdep@^2.0.0:
   version "2.0.0"
@@ -2818,6 +3445,13 @@ pretty-quick@^1.11.1:
     mri "^1.1.0"
     multimatch "^3.0.0"
 
+prismjs@^1.11.0:
+  version "1.17.1"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.17.1.tgz#e669fcbd4cdd873c35102881c33b14d0d68519be"
+  integrity sha512-PrEDJAFdUGbOP6xK/UsfkC5ghJsPJviKgnQOoxaDbBjwc8op68Quupwt1DeAFoG8GImPhiKXAvvsH7wDSLsu1Q==
+  optionalDependencies:
+    clipboard "^2.0.0"
+
 process-nextick-args@^2.0.0, process-nextick-args@~2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
@@ -3068,6 +3702,11 @@ sax@^1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
+
+select@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/select/-/select-1.1.2.tgz#0e7350acdec80b1108528786ec1d4418d11b396d"
+  integrity sha1-DnNQrN7ICxEIUoeG7B1EGNEbOW0=
 
 semver-compare@^1.0.0:
   version "1.0.0"
@@ -3352,6 +3991,11 @@ time-stamp@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/time-stamp/-/time-stamp-1.1.0.tgz#764a5a11af50561921b133f3b44e618687e0f5c3"
   integrity sha1-dkpaEa9QVhkhsTPztE5hhofg9cM=
+
+tiny-emitter@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
+  integrity sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q==
 
 to-absolute-glob@^2.0.0:
   version "2.0.2"
