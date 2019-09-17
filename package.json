@@ -97,7 +97,7 @@
     "pretty-quick": "^1.11.1"
   },
   "name": "material-search",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "main": "index.html",
   "repository": {
     "type": "git",
