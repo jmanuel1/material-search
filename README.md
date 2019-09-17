@@ -3,9 +3,10 @@ Material Search
 
 A material design search page prototype. Based on the [Polymer Starter Kit Light
 v1](https://github.com/PolymerElements/polymer-starter-kit) and later upgraded
-to Polymer 2.
+to Polymer 3.
 
-![Demonstration of material-search](https://cloud.githubusercontent.com/assets/7255867/19464608/9e4247da-94b2-11e6-9a39-7318abb94b7e.gif)
+![Demonstration of
+material-search](https://cloud.githubusercontent.com/assets/7255867/19464608/9e4247da-94b2-11e6-9a39-7318abb94b7e.gif)
 
 Or see it in action: https://jmanuel1.github.io/material-search/.
 
@@ -22,6 +23,7 @@ Tested in Opera, should work in Chrome.
 - [Python 3.7+](https://www.python.org)
 - [virtualenv](https://virtualenv.pypa.io/en/latest/)
 - [Gulp.js](https://gulpjs.com)
+- [Polymer CLI](https://polymer-library.polymer-project.org/3.0/docs/tools/polymer-cli)
 
 #### Set up
 
@@ -45,40 +47,40 @@ Install the dependencies.
 (env) > yarn
 ```
 
-Start up a server in the project directory and navigate to `localhost:<port>`
-in a browser. For example:
+Start up a server in the project directory using Polymer CLI and navigate to
+`localhost:8081` in a browser.
 
 ```bash
-(env) > python -m http.server
+(env) > polymer serve
 # Go to localhost:8000 in a browser.
 ```
 
 ### Build instructions
 
-To build the project, run `gulp build`. The build output will be under the
-`build` directory.
+To create a development build of the project, run `gulp build`. The build output
+will be under the `build/dev` directory.
 
 ### Developer guide
 
 #### `index.html`
 
-In the main page, there's a header with tabs and the
-main content area. The main content area contains a search bar--in particular,
-the [`paper-search-bar` element](http://collaborne.github.io/paper-search/components/paper-search/).
+In the main page, there's a header with tabs and the main content area. The main
+content area contains a search bar--in particular, the [`paper-search-bar`
+element](http://collaborne.github.io/paper-search/components/paper-search/).
 This is hooked up to three fake results that appear in a `div` (id
 `search-results`) when something is typed into the search bar by the
 `_createItems` method on the app. `_createItems` can be found in
 `scripts/app.js`.
 
-#### `elements/elements.html`
+#### `elements/elements.js`
 
-This file contains all the HTML imports, including those of elements, used in
-`index.html`. This is then imported from `index.html`.
+This file contains all the imports, including those of elements, used in
+`index.html`. This is then loaded as a script module from `index.html`.
 
 #### `styles/app-theme.html`
 
 This has most of material-search's styling. Much of it is from the Polymer
-Starter Kit v1.
+Starter Kit v1, but converted to a module for Polymer 3.
 
 ### Tests
 
@@ -96,9 +98,12 @@ following:
 #### When you want to run tests
 
 ```bash
-# make sure you're in the virtual environment
+# make sure you're in the virtual environment and that there is a development
+# build in ./build/dev
 (env) > gulp test
 ```
+
+Test are run on the development build.
 
 #### Writing tests
 
