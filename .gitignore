@@ -1,5 +1,8 @@
-node_modules/
 build/
+
+# Yarn/NPM
+node_modules/
+yarn-error.log
 
 # Python
 *.pyc

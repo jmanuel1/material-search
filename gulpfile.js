@@ -11,20 +11,13 @@ gulp.task(
       return gulp.src(["./package.json", "./yarn.lock"]).pipe(yarn());
     },
     function() {
-      return del("./build/**");
-    },
-    function() {
-      // Copy the whole project into a directory (perhaps ./build/)
-      // Copies only @bower_components of node_modules to cut build time from ~10
-      // min. to ~2 min.
-      return gulp
-        .src(["./**", "!./node_modules/**"]) // ignores ./.git
-        .pipe(gulp.dest("./build/"));
-    },
-    function() {
-      return gulp
-        .src(["./node_modules/@bower_components/**"])
-        .pipe(gulp.dest("./build/node_modules/@bower_components/"));
+      return spawn("polymer", ["build", "--name", "dev"], {
+        stdio: "inherit",
+        cwd: ".",
+        // ENOENT without this option, I think because we are invoking a batch
+        // script
+        shell: true
+      });
     }
   )
 );
@@ -37,7 +30,7 @@ gulp.task(
       // Don't wait for exit, so async is used
       // Assume build has been run
       pythonProcess = spawn("python", ["-m", "http.server"], {
-        cwd: "./build"
+        cwd: "./build/dev"
       });
       return pythonProcess;
     },
