@@ -1,2 +1,10 @@
 test/
 env/
+build/
+gulpfile.js
+package.json
+polymer.json
+README.*
+requirements.txt
+yarn-error.log
+yarn.lock

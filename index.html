@@ -8,15 +8,11 @@ The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
 The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
 Code distributed by Google as part of the polymer project is also
 subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
--->
-
-<!doctype html>
-<html lang="">
-  <head>
+--><!DOCTYPE html><html lang=""><head>
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Polymer Starter Kit" />
+    <meta name="generator" content="Polymer Starter Kit">
     <title>Material Search</title>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
@@ -47,59 +43,61 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild-->
 
-    <!-- build:js node_modules/@bower_components/webcomponentsjs/webcomponents-lite.min.js -->
-    <script src="node_modules/@bower_components/webcomponentsjs/webcomponents-lite.js"></script>
-    <!-- endbuild -->
+    <script src="node_modules/@bower_components/webcomponentsjs/webcomponents-loader.js"></script>
 
-    <!-- will be replaced with elements/elements.vulcanized.html -->
-    <link rel="import" href="elements/elements.html">
-    <!-- endreplace-->
+    <script type="module" src="elements/elements.js"></script>
   </head>
 
-  <body unresolved class="fullbleed layout vertical">
-    <span id="browser-sync-binding"></span>
-    <template is="dom-bind" id="app">
-
-        <paper-header-panel main mode="waterfall-tall">
-
-          <!-- Main Toolbar -->
-          <paper-toolbar id="mainToolbar">
-            <!-- Application name -->
-            <div class="middle paper-font-display2 app-name" id='app-name'>Material Search</div>
-            <paper-tabs attr-for-selected="data-route" selected="{{route}}" class="bottom fit">
-                <paper-tab data-route='home' href='/'>
-                    Web
-                </paper-tab>
-                <paper-tab data-route='shop' href='/shop'>
-                    Shopping
-                </paper-tab>
-                <paper-tab data-route='video' href='/video'>
-                    Videos
-                </paper-tab>
+  <body unresolved="">
+    <dom-bind id="app">
+      <template>
+        <app-header-layout fullbleed="">
+          <!-- NOTE: fixed and condenses need app-header-layout to work -->
+          <app-header slot="header" fixed="" condenses="" effects="waterfall">
+            <!-- Main Toolbar -->
+            <app-toolbar id="mainToolbar" class="tall">
+              <!-- Application name -->
+              <div id="app-name" class="middle paper-font-display2" main-title="">
+                Material Search
+              </div>
+            </app-toolbar>
+            <paper-tabs attr-for-selected="data-route" selected="{{route}}" bottom-item="" sticky="">
+              <paper-tab data-route="home" href="/">
+                Web
+              </paper-tab>
+              <paper-tab data-route="shop" href="/shop">
+                Shopping
+              </paper-tab>
+              <paper-tab data-route="video" href="/video">
+                Videos
+              </paper-tab>
             </paper-tabs>
-          </paper-toolbar>
+          </app-header>
 
           <!-- Main Content -->
-          <div class="content">
-            <paper-search-bar query='{{search}}' placeholder='Search'
-              hide-filter-button items='[[_createItems(search)]]'>
-            </paper-search-bar>
-            <div id='search-results'>
-              <template is="dom-repeat" items="[[_createItems(search)]]">
-                <paper-card heading='{{item}}' elevation='2'>
-                  <div class="card-content">
-                    Some card content 'cause <span>{{item}}</span>
-                  </div>
-                </paper-card>
-              </template>
+          <!-- Outer div is needed to give inner div proper width (i.e anything up to 600px). -->
+          <div class="content-container">
+            <div class="content">
+              <paper-search-bar query="{{search}}" placeholder="Search" hide-filter-button="" items="{{_createItems(search)}}">
+              </paper-search-bar>
+              <div id="search-results">
+                <template is="dom-repeat" items="{{_createItems(search)}}">
+                  <paper-card heading="{{item}}" elevation="2">
+                    <div class="card-content">
+                      Some card content 'cause <span>{{item}}</span>
+                    </div>
+                  </paper-card>
+                </template>
+              </div>
             </div>
           </div>
-        </paper-header-panel>
-
-    </template>
+        </app-header-layout>
+      </template>
+    </dom-bind>
 
     <!-- build:js scripts/app.js -->
     <script src="scripts/app.js"></script>
     <!-- endbuild-->
-  </body>
-</html>
+  
+
+</body></html>
